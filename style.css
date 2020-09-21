@@ -398,7 +398,7 @@ h3 {
 
 
 .btn_store::after{
-    content:url(assets/icon-android.png);
+    content:url(assets/icon-apple.png);
     position: absolute;
     width: 59px;
     height: 26px;
@@ -407,6 +407,10 @@ h3 {
     top: 116px;
     padding-top: 10px;
     padding-bottom: 10px;
+
+}
+.playmarket::after{
+    content:url(assets/icon-android.png);
 
 }
 .btn_store:hover{
@@ -467,6 +471,9 @@ footer div{
     bottom: 14px;
     margin-right: 382px;
     
+}
+.footer_menu a:hover{
+    opacity: 0.5;
 }
 footer img{
     margin-top: 60px;
